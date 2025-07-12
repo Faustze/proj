@@ -1,0 +1,11 @@
+PUT http://127.0.0.1:5000/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTE4MDE5MDgsImlhdCI6MTc1MTgwMDEwOH0.K3PHmjgJoSio6MjuWnenMB_OQSKH2ag_U9ftPssmXW4
+Content-Type: application/json
+
+{
+    "email": "bob2@example.com",
+    "username": "bob2",
+    "old_password": "StrongP@ssw0rd",
+    "new_password": "StrongP@ssw0rd2",
+    "new_password2": "StrongP@ssw0rd2"
+}
