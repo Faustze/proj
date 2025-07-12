@@ -1,18 +1,18 @@
-__pycache__/
-*.py[cod]
-*.so
-*.egg-info/
-.pytest_cache/
+# __pycache__/
+# *.py[cod]
+# *.so
+# *.egg-info/
+# .pytest_cache/
 
-venv/
+# venv/
 
-*.log
+# *.log
 
-.env
-config.py
+# .env
+# config.py
 
-.idea/
-.vscode/
+# .idea/
+# .vscode/
 
-alembic/versions/* 
-alembic/__pycache__/
+# alembic/versions/* 
+# alembic/__pycache__/
