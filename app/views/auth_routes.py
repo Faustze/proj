@@ -28,9 +28,11 @@ def register() -> Tuple[Any, int]:
     if not EmailValidator.is_valid(data["email"]):
         raise ValidationError("Invalid email format")
 
-    is_strong, password_errors = PasswordManager.is_password_strong(data["password"])
+    is_strong, password_errors = PasswordManager.is_password_strong(
+        data["password"])
     if not is_strong:
-        raise ValidationError(f"Password is too weak: {'; '.join(password_errors)}")
+        raise ValidationError(
+            f"Password is too weak: {'; '.join(password_errors)}")
 
     with get_user_service() as service:
         hashed_password = PasswordManager.hash_password(data["password"])

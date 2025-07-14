@@ -53,9 +53,15 @@ def seed_data() -> None:
     hashed_password = PasswordManager.hash_password(password)
 
     user1 = User(
-        username="alice", email="alice@example.com", password_hash=hashed_password
+        username="alice",
+        email="alice@example.com",
+        password_hash=hashed_password
     )
-    user2 = User(username="bob", email="bob@example.com", password_hash=hashed_password)
+    user2 = User(
+        username="bob",
+        email="bob@example.com",
+        password_hash=hashed_password
+    )
     session.add_all([user1, user2])
     session.flush()
 

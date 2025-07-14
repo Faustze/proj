@@ -26,7 +26,14 @@ class BaseConfig(BaseSettings):
 
     @property
     def database_url_psycopg2(self) -> str:
-        return f"postgresql+psycopg2://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"
+        return (
+            "postgresql+psycopg2://"
+            "{self.DB_USER}:"
+            "{self.DB_PASS}@"
+            "{self.DB_HOST}:"
+            "{self.DB_PORT}/"
+            "{self.DB_NAME}"
+        )
 
     model_config = SettingsConfigDict(env_file=".env")
 
@@ -49,7 +56,7 @@ class TestConfig(BaseConfig):
     LOG_LEVEL: str = "DEBUG"
 
 
-def get_config():
+def get_config() -> BaseConfig:
     env = os.getenv("ENVIRONMENT", "dev")
     if env == "prod":
         return ProdConfig()

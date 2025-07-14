@@ -1,0 +1,383 @@
+2025-07-14 15:45:27,676 - __main__ - INFO - Starting app from DSN
+2025-07-14 15:45:45,957 - __main__ - INFO - Starting app from DSN
+2025-07-14 15:45:55,858 - __main__ - INFO - Starting app from DSN
+2025-07-14 15:54:29,867 - __main__ - INFO - Starting app from DSN
+2025-07-14 15:54:29,959 - app.database - INFO - Database dropped successfully!
+2025-07-14 15:54:29,993 - app.database - INFO - Database initialized successfully!
+2025-07-14 15:54:30,228 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 15:54:30,228 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 15:54:30,228 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjQ5OTQ3MCwiaWF0IjoxNzUyNDk3NjcwfQ.ZbarDdrga-dx7-x5YPyVxPu-uD8RKL5YfDzV9Ua-TJQ
+2025-07-14 15:54:30,228 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDI0NzAsImlhdCI6MTc1MjQ5NzY3MH0.nZFR9CxJHd0vZcemfy8LMgvYcoDYlPwuOWX82H-XEDQ
+
+2025-07-14 15:54:30,229 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 15:54:30,229 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI0OTk0NzAsImlhdCI6MTc1MjQ5NzY3MH0.2_6bHZskOeK61TBr1-eOIJgGvfhk5qwuSWRor5KMT7E
+2025-07-14 15:54:30,229 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAyNDcwLCJpYXQiOjE3NTI0OTc2NzB9.GXvwBvVWb_Cp5MWBolMmB4aVq2DiHxSvqtWMuEMgA5c
+
+2025-07-14 15:54:30,676 - __main__ - INFO - Starting app from DSN
+2025-07-14 15:54:30,789 - app.database - INFO - Database dropped successfully!
+2025-07-14 15:54:30,825 - app.database - INFO - Database initialized successfully!
+2025-07-14 15:54:31,080 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 15:54:31,080 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 15:54:31,080 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjQ5OTQ3MSwiaWF0IjoxNzUyNDk3NjcxfQ.-DBGnEonS9OqUi1696KZl1iBiHfzhW-GNeSMA46OmFs
+2025-07-14 15:54:31,080 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDI0NzEsImlhdCI6MTc1MjQ5NzY3MX0.gmiAOBP6M8CzKUrHj1m5QIdPn1wVKUBdUK8X0FvfONc
+
+2025-07-14 15:54:31,080 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 15:54:31,080 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI0OTk0NzEsImlhdCI6MTc1MjQ5NzY3MX0.mdjyJlkDbYx9ZSOIsdAthplwUE32QTVJEFHfmX5b2DI
+2025-07-14 15:54:31,080 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAyNDcxLCJpYXQiOjE3NTI0OTc2NzF9.0tJIpxQL3IASOHQU4xVdXWLI9VmcvEjA0AFecnGPIPI
+
+2025-07-14 16:03:51,180 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:03:51,282 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:03:51,317 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:03:51,561 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:03:51,562 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:03:51,562 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDAzMSwiaWF0IjoxNzUyNDk4MjMxfQ.X5HBe3WvSnZJ1c2b7Aa48tvAegjxJXv28PR7nuwrs2A
+2025-07-14 16:03:51,562 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwMzEsImlhdCI6MTc1MjQ5ODIzMX0.0KFxa_C9Ir_q9KjnJP4QVF4eyKyFKjdcy603nzd-JAA
+
+2025-07-14 16:03:51,562 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:03:51,562 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwMzEsImlhdCI6MTc1MjQ5ODIzMX0.EB_JE4YfXfQVHZWctsJjOE4DGJYo44bChuLiCQ3hog0
+2025-07-14 16:03:51,562 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDMxLCJpYXQiOjE3NTI0OTgyMzF9.X9oJH5j24KMon-7QZmHBbXvoCizAFp9qm6T7Axed2x4
+
+2025-07-14 16:04:07,083 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:04:07,187 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:04:07,220 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:04:07,461 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:04:07,462 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:07,462 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDA0NywiaWF0IjoxNzUyNDk4MjQ3fQ.X_vfbGqWUM-S2kyKUl2QAzYx9TAtRXzGf8EqJq8AA5o
+2025-07-14 16:04:07,462 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwNDcsImlhdCI6MTc1MjQ5ODI0N30.4KMLfFJ8H7BwwxxpwUk0a2Y2ZROC8Kv1bHo3-cnlcnM
+
+2025-07-14 16:04:07,462 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:07,462 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwNDcsImlhdCI6MTc1MjQ5ODI0N30.vn7MsWcdKX-k69q194CWiyb4etwH4pG5Zz9lfFCR7sE
+2025-07-14 16:04:07,462 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDQ3LCJpYXQiOjE3NTI0OTgyNDd9.gEebDrulLyrEcQTqKsuqjfieOFP9wwthoudo4RKh-Us
+
+2025-07-14 16:04:31,654 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:04:31,766 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:04:31,798 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:04:32,046 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:04:32,046 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:32,046 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDA3MiwiaWF0IjoxNzUyNDk4MjcyfQ.74p6UCYhkT6d1nzj4wliBw0lX3rVR9yRPcBe-1Susv4
+2025-07-14 16:04:32,046 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwNzIsImlhdCI6MTc1MjQ5ODI3Mn0.rh7UtrNdByyphVBe-a8oZoJPlGRyMjZMj_g513O547Y
+
+2025-07-14 16:04:32,046 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:32,046 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwNzIsImlhdCI6MTc1MjQ5ODI3Mn0.2PmlvHOdU2qp7-owz-UIHvhmORJyZT6bvd3Y10bQ4aE
+2025-07-14 16:04:32,047 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDcyLCJpYXQiOjE3NTI0OTgyNzJ9.GrLs7Hd1vuTFAFezcricBO30jPZlXC7pcViPR4kvpqg
+
+2025-07-14 16:04:38,138 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:04:38,242 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:04:38,274 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:04:38,518 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:04:38,518 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:38,519 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDA3OCwiaWF0IjoxNzUyNDk4Mjc4fQ.h9KanqeHLMcCvLYrgMvl1savnIl-GVTmPzFEHJ585Rs
+2025-07-14 16:04:38,519 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwNzgsImlhdCI6MTc1MjQ5ODI3OH0.FBMjIvSilQDYPRXt4kkcFA8RDZre3XbzdBeoFAhwQ0A
+
+2025-07-14 16:04:38,519 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:38,519 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwNzgsImlhdCI6MTc1MjQ5ODI3OH0.joP3ENN9P7IxryZo_o3oDTPoVXrasJR786oxNxgqVFY
+2025-07-14 16:04:38,519 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDc4LCJpYXQiOjE3NTI0OTgyNzh9.T6f1IJwzD8mlyGhGPF4TZuZ7ACiDf8LFKdUZyWqDq0s
+
+2025-07-14 16:04:40,301 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:04:40,414 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:04:40,444 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:04:40,694 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:04:40,694 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:40,694 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDA4MCwiaWF0IjoxNzUyNDk4MjgwfQ.iHuYhwA4EnAcSPayEM9kNWby9Edyc29oJUyNZEIED8M
+2025-07-14 16:04:40,694 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwODAsImlhdCI6MTc1MjQ5ODI4MH0.U8sqP6aDplAnQqhxaDc0VTIjqDA2SupjmtYP5OmjJ0o
+
+2025-07-14 16:04:40,695 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:40,695 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwODAsImlhdCI6MTc1MjQ5ODI4MH0.MzmIQ5d6AuHQ9-xywvpQUCFZkJylznVeerMnT8Ut1tk
+2025-07-14 16:04:40,695 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDgwLCJpYXQiOjE3NTI0OTgyODB9.If_dp-SUIoYw8_5VNMAXV-gEtbQdbMpE-nrC4P6v0UE
+
+2025-07-14 16:04:48,935 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:04:49,042 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:04:49,076 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:04:49,326 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:04:49,326 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:49,326 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDA4OSwiaWF0IjoxNzUyNDk4Mjg5fQ.REYVpRy0fLGQoqucCanVjCK05pCDs8jti6waiRmPGK0
+2025-07-14 16:04:49,326 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMwODksImlhdCI6MTc1MjQ5ODI4OX0.XNzeooF3Cbyv5ouuljHpGIlNUAqE7UmugWohJP0ciYY
+
+2025-07-14 16:04:49,326 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:04:49,326 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAwODksImlhdCI6MTc1MjQ5ODI4OX0.Ie203U1Yr6RyYEKbjbHuxShZul5baFGCwyaqg1bRXHk
+2025-07-14 16:04:49,326 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMDg5LCJpYXQiOjE3NTI0OTgyODl9.Dgsl3XqAMuoncrW0a78oikgWduMvJhuIIdfOFd-lh1E
+
+2025-07-14 16:06:28,774 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:06:28,874 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:06:28,907 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:06:29,155 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:06:29,155 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:06:29,155 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDE4OSwiaWF0IjoxNzUyNDk4Mzg5fQ.d7Tca2ILgH46K2epMLNe0BT8Se9XVMCaiGrpTwl7i7g
+2025-07-14 16:06:29,155 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMxODksImlhdCI6MTc1MjQ5ODM4OX0.A-aS23jN7jdpdgIhXZLkGorLuZgibNZmWE7gsH0YVms
+
+2025-07-14 16:06:29,155 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:06:29,155 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAxODksImlhdCI6MTc1MjQ5ODM4OX0.gBe5MT_eWMsrsJ3V2Bd4cI7fGOVb8_727JYgYFkrFRY
+2025-07-14 16:06:29,155 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMTg5LCJpYXQiOjE3NTI0OTgzODl9.kquEq0c4EtqIzcyUmNA1MImtfXvAACflKTpVxCnagwQ
+
+2025-07-14 16:06:29,611 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:06:29,724 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:06:29,754 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:06:29,991 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:06:29,991 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:06:29,991 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDE4OSwiaWF0IjoxNzUyNDk4Mzg5fQ.d7Tca2ILgH46K2epMLNe0BT8Se9XVMCaiGrpTwl7i7g
+2025-07-14 16:06:29,991 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDMxODksImlhdCI6MTc1MjQ5ODM4OX0.A-aS23jN7jdpdgIhXZLkGorLuZgibNZmWE7gsH0YVms
+
+2025-07-14 16:06:29,991 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:06:29,991 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAxODksImlhdCI6MTc1MjQ5ODM4OX0.gBe5MT_eWMsrsJ3V2Bd4cI7fGOVb8_727JYgYFkrFRY
+2025-07-14 16:06:29,991 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzMTg5LCJpYXQiOjE3NTI0OTgzODl9.kquEq0c4EtqIzcyUmNA1MImtfXvAACflKTpVxCnagwQ
+
+2025-07-14 16:11:06,910 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:11:07,008 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:11:07,041 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:11:07,270 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:11:07,270 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:11:07,270 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDQ2NywiaWF0IjoxNzUyNDk4NjY3fQ.MTvn1vqRafR9Abg6r1q_FJ5NBLFuZ5r5X99mTcoWKnk
+2025-07-14 16:11:07,270 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDM0NjcsImlhdCI6MTc1MjQ5ODY2N30.63AgfAogDQ8YAIv9mlGE-uzMygQVYpc5fHZqN3qsuE0
+
+2025-07-14 16:11:07,270 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:11:07,270 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDA0NjcsImlhdCI6MTc1MjQ5ODY2N30.DHYQB3gwkdD3iW_zdPnYMChQwsPBe7L2aigodpY67bE
+2025-07-14 16:11:07,270 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzNDY3LCJpYXQiOjE3NTI0OTg2Njd9.sgHdd9s7ASAIwUW40hLg2ow3EuXNXflp0EXxUJy3FlE
+
+2025-07-14 16:11:07,738 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:11:07,838 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:11:07,875 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:11:08,126 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:11:08,126 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:11:08,127 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMDQ2OCwiaWF0IjoxNzUyNDk4NjY4fQ.KTdHfQNpqIyN4SWJzJdP4iCRfZzAg_bUEGLL1EyTp4g
+2025-07-14 16:11:08,127 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDM0NjgsImlhdCI6MTc1MjQ5ODY2OH0.N8NrZxUSfIIfpv2ex0SfdKp-_tgmYTJBYaCEcCmgCts
+
+2025-07-14 16:11:08,127 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:11:08,127 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDA0NjgsImlhdCI6MTc1MjQ5ODY2OH0.Iys78xuLEKiPdnTIZU4SLQQtEXS6yN-wSrFuQlDr0YY
+2025-07-14 16:11:08,127 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTAzNDY4LCJpYXQiOjE3NTI0OTg2Njh9.6I0przkDSJeRLWNrfjYr2tS7WiHf-5aw-pcllZP2la8
+
+2025-07-14 16:14:06,682 - TaskService - INFO - Get task successfully: '{'title': 'Read a book', 'is_completed': True, 'user_id': 1, 'id': 2, 'created_at': datetime.datetime(2025, 7, 14, 16, 11, 8, 118428, tzinfo=datetime.timezone(datetime.timedelta(seconds=10800))), 'updated_at': datetime.datetime(2025, 7, 14, 16, 11, 8, 118428, tzinfo=datetime.timezone(datetime.timedelta(seconds=10800)))}'
+2025-07-14 16:23:16,506 - TaskService - INFO - Get task successfully: '{'title': 'Read a book', 'is_completed': True, 'user_id': 1, 'id': 2, 'created_at': datetime.datetime(2025, 7, 14, 16, 11, 8, 118428, tzinfo=datetime.timezone(datetime.timedelta(seconds=10800))), 'updated_at': datetime.datetime(2025, 7, 14, 16, 11, 8, 118428, tzinfo=datetime.timezone(datetime.timedelta(seconds=10800)))}'
+2025-07-14 16:54:29,985 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:54:30,083 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:54:30,117 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:54:30,344 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:54:30,344 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:54:30,344 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzA3MCwiaWF0IjoxNzUyNTAxMjcwfQ.cu0qSHspAkNQXyRX1seLBMIZZkWBsYbQ8sNc-7Y4bIE
+2025-07-14 16:54:30,344 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDYwNzAsImlhdCI6MTc1MjUwMTI3MH0.C3R0UfCS3u6RKQ7o_Il-8n9yIIEa9hJRwr_KNc7Ww-g
+
+2025-07-14 16:54:30,344 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:54:30,345 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDMwNzAsImlhdCI6MTc1MjUwMTI3MH0.nt-izlGz5f9tfakuOaKZZnVWhiCVlEusv4GvLVIa3rM
+2025-07-14 16:54:30,345 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2MDcwLCJpYXQiOjE3NTI1MDEyNzB9.KzLmLd1QbLj_yVDF54mZuhqrMIMB8hzwVjOfK1uHU-4
+
+2025-07-14 16:54:30,842 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:54:30,947 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:54:30,979 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:54:31,216 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:54:31,216 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:54:31,216 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzA3MSwiaWF0IjoxNzUyNTAxMjcxfQ.w9zh-Af3d9HaopOw_sT99BcFFXnSXPzCeOPRjE1slqo
+2025-07-14 16:54:31,216 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDYwNzEsImlhdCI6MTc1MjUwMTI3MX0.LhZWhteOiz170iYjXXFGG0KCTuvdTSkER646X3ZY6SE
+
+2025-07-14 16:54:31,216 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:54:31,216 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDMwNzEsImlhdCI6MTc1MjUwMTI3MX0.QeE-J6pH50MVrM0kQBpzgyeGj4vU95ZrWQFkprqho34
+2025-07-14 16:54:31,216 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2MDcxLCJpYXQiOjE3NTI1MDEyNzF9.4kuDbnmOWstEA1tZMmT6p0zGEQatNEQp-zC64VJhcqY
+
+2025-07-14 16:57:20,486 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:57:20,585 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:57:20,620 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:57:20,854 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:57:20,854 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:57:20,854 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzI0MCwiaWF0IjoxNzUyNTAxNDQwfQ.6Uc1Br3VbkYmjVR6XiAFZAJ33-xiA-Eem_mmjEMA6RE
+2025-07-14 16:57:20,854 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDYyNDAsImlhdCI6MTc1MjUwMTQ0MH0.gGVRFUWLXB-8ltHrqxc_uTDUEHfsZTJnWbvgwfQCuy4
+
+2025-07-14 16:57:20,854 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:57:20,854 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDMyNDAsImlhdCI6MTc1MjUwMTQ0MH0.K7q6LeFVBUe80bH9cDU7x_kMCyr1mMyiTy4GHxpYSm0
+2025-07-14 16:57:20,854 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2MjQwLCJpYXQiOjE3NTI1MDE0NDB9.p5mbMGTxiHDsDC2muEyC99X6kh0lKwLgjjNeuxr1trA
+
+2025-07-14 16:57:21,336 - __main__ - INFO - Starting app from DSN
+2025-07-14 16:57:21,456 - app.database - INFO - Database dropped successfully!
+2025-07-14 16:57:21,488 - app.database - INFO - Database initialized successfully!
+2025-07-14 16:57:21,731 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 16:57:21,731 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:57:21,731 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzI0MSwiaWF0IjoxNzUyNTAxNDQxfQ.c0B8q8hi0LLqIW6tYTelxUYECKCeuvgA6QtBd_saNfM
+2025-07-14 16:57:21,731 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDYyNDEsImlhdCI6MTc1MjUwMTQ0MX0.AWQME68wQ1oKt3CXumGQyZnl7JZkJAMntBIenOxfqRo
+
+2025-07-14 16:57:21,731 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 16:57:21,731 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDMyNDEsImlhdCI6MTc1MjUwMTQ0MX0.FwERztZr8ao1N2c8GSRWjtsm18Vcrfx8xwWSG8lAifc
+2025-07-14 16:57:21,731 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2MjQxLCJpYXQiOjE3NTI1MDE0NDF9.JnYRppvbHopNDlgrRzZoGBeD4-BlkswO9cH52AXCxcA
+
+2025-07-14 17:07:25,763 - __main__ - INFO - Starting app from DSN
+2025-07-14 17:07:25,864 - app.database - INFO - Database dropped successfully!
+2025-07-14 17:07:25,896 - app.database - INFO - Database initialized successfully!
+2025-07-14 17:07:26,129 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 17:07:26,129 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 17:07:26,129 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzg0NiwiaWF0IjoxNzUyNTAyMDQ2fQ.2FOrxg0GHXHjtSMLvUzurrID2iqQRgutYqSZ7Nfo8-s
+2025-07-14 17:07:26,129 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDY4NDYsImlhdCI6MTc1MjUwMjA0Nn0.fEQA74k9YFahHTIk1G1xbW5gUQVpGA7Dtj6zsvvPy1I
+
+2025-07-14 17:07:26,129 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 17:07:26,129 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDM4NDYsImlhdCI6MTc1MjUwMjA0Nn0.4PFdpgCysOftyaLBqnnKmRcQ4hBXV5u49ym84qJkDJ8
+2025-07-14 17:07:26,129 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2ODQ2LCJpYXQiOjE3NTI1MDIwNDZ9.qwabdhCSbF_Gua7bTC57GvJ6S8cy8STl-An2PoUV48M
+
+2025-07-14 17:07:26,572 - __main__ - INFO - Starting app from DSN
+2025-07-14 17:07:26,672 - app.database - INFO - Database dropped successfully!
+2025-07-14 17:07:26,704 - app.database - INFO - Database initialized successfully!
+2025-07-14 17:07:26,932 - app.database - INFO - ✅ Seeding complete.
+2025-07-14 17:07:26,932 - app.database - INFO - 
+🔑 User: alice
+Email: alice@example.com
+Password: StrongP@ssw0rd
+2025-07-14 17:07:26,933 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1MjUwMzg0NiwiaWF0IjoxNzUyNTAyMDQ2fQ.2FOrxg0GHXHjtSMLvUzurrID2iqQRgutYqSZ7Nfo8-s
+2025-07-14 17:07:26,933 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFsaWNlIiwidHlwZSI6InJlZnJlc2giLCJleHAiOjE3NTMxMDY4NDYsImlhdCI6MTc1MjUwMjA0Nn0.fEQA74k9YFahHTIk1G1xbW5gUQVpGA7Dtj6zsvvPy1I
+
+2025-07-14 17:07:26,933 - app.database - INFO - 🔑 User: bob
+Email: bob@example.com
+Password: StrongP@ssw0rd
+2025-07-14 17:07:26,933 - app.database - INFO - Access Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDM4NDYsImlhdCI6MTc1MjUwMjA0Nn0.4PFdpgCysOftyaLBqnnKmRcQ4hBXV5u49ym84qJkDJ8
+2025-07-14 17:07:26,933 - app.database - INFO - Refresh Token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzUzMTA2ODQ2LCJpYXQiOjE3NTI1MDIwNDZ9.qwabdhCSbF_Gua7bTC57GvJ6S8cy8STl-An2PoUV48M
+

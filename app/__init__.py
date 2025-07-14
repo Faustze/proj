@@ -11,11 +11,12 @@ def create_app() -> Flask:
     init_middleware(app)
     init_hooks(app)
 
-    from app.views import auth_bp, task_bp, user_bp
+    from app.views import auth_bp, main_bp, task_bp, user_bp
 
     app.register_blueprint(task_bp)
     app.register_blueprint(user_bp)
     app.register_blueprint(auth_bp)
+    app.register_blueprint(main_bp)
 
     # print("\nRegistered Endpoints:")
     # for rule in app.url_map.iter_rules():

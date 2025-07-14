@@ -4,7 +4,6 @@ from functools import wraps
 from typing import Any, Callable, Dict, Optional, Tuple, Type, TypeVar, cast
 
 from flask import jsonify
-from marshmallow import ValidationError as MarshmallowOriginalValidationError
 from sqlalchemy.exc import SQLAlchemyError
 
 logger = logging.getLogger(__name__)
@@ -231,10 +230,16 @@ def handle_exceptions(include_stack_trace: bool = False) -> Callable:
                 return func(*args, **kwargs)
             except BaseServiceException as e:
                 status_code = DEFAULT_EXCEPTION_MAP.get(type(e), 500)
-                logger_fn = logger.warning if status_code < 500 else logger.error
+                if status_code < 500:
+                    logger_fn = logger.warning
+                else:
+                    logger_fn = logger.error
                 logger_fn(
                     f"{type(e).__name__}: {e.message}",
-                    extra={"error_code": e.error_code.value, "details": e.details},
+                    extra={
+                        "error_code": e.error_code.value,
+                        "details": e.details
+                    },
                 )
 
                 response_data = e.to_dict()
@@ -251,9 +256,15 @@ def handle_exceptions(include_stack_trace: bool = False) -> Callable:
                         )
                     else:
                         stack_trace = "".join(
-                            traceback.format_exception(type(e), e, e.__traceback__)
+                            traceback.format_exception(
+                                type(e),
+                                e, e.__traceback__
+                            )
                         )
-                    response_data["stack_trace"] = f"{type(e).__name__}:\n{stack_trace}"
+                    response_data["stack_trace"] = (
+                        f"{type(e).__name__}:\n"
+                        f"{stack_trace}"
+                    )
 
                 print(
                     "Returning response_data from BaseServiceException:",
@@ -266,16 +277,20 @@ def handle_exceptions(include_stack_trace: bool = False) -> Callable:
             except Exception as e:
                 for exc_type, status_code in DEFAULT_EXCEPTION_MAP.items():
                     if isinstance(e, exc_type):
-                        logger_fn = (
-                            logger.warning if status_code < 500 else logger.error
-                        )
+                        if status_code < 500:
+                            logger_fn = logger.warning
+                        else:
+                            logger_fn = logger.error
                         logger_fn(f"{exc_type.__name__}: {e}")
 
-                        response_data = {"error": str(e), "error_code": "UNKNOWN_ERROR"}
+                        response_data = {
+                            "error": str(e),
+                            "error_code": "UNKNOWN_ERROR"
+                        }
                         if include_stack_trace:
                             import traceback
 
-                            response_data["stack_trace"] = traceback.format_exc()
+                            response_data["stack_trace"] = traceback.format_exc()  # noqa: E501
 
                         return jsonify(response_data), status_code
 
@@ -296,24 +311,39 @@ def handle_exceptions(include_stack_trace: bool = False) -> Callable:
     return handle_exc_wrapper
 
 
-def handle_db_errors(operation: str):
-    def decorator(func: Callable):
+def handle_db_errors(operation: str) -> Callable[
+    [Callable[..., T]], Callable[..., T]
+                                        ]:
+    """Декоратор для обработки ошибок БД.
+    Args:
+        operation: Название операции для логов.
+    Returns:
+        Декоратор, сохраняющий сигнатуру исходной функции.
+    """
+    def decorator(func: Callable[..., T]) -> Callable[..., T]:
         @wraps(func)
-        def wrapper(self, *args, **kwargs):
+        def wrapper(self, *args: Any, **kwargs: Any) -> T:
             try:
                 return func(self, *args, **kwargs)
             except IntegrityError as e:
                 if hasattr(self, "db"):
                     self.db.rollback()
                 if hasattr(self, "logger"):
-                    self.logger.error(f"Integrity error during {operation}: {str(e)}")
-                raise IntegrityError(operation=operation, original_exception=e) from e
+                    self.logger.error(
+                        f"Integrity error during {operation}: {str(e)}")
+                raise IntegrityError(
+                    operation=operation,
+                    original_exception=e
+                ) from e
             except SQLAlchemyError as e:
                 if hasattr(self, "db"):
                     self.db.rollback()
                 if hasattr(self, "logger"):
                     self.logger.exception(f"Database error during {operation}")
-                raise DatabaseError(operation=operation, original_exception=e) from e
+                raise DatabaseError(
+                    operation=operation,
+                    original_exception=e
+                ) from e
 
         return wrapper
 

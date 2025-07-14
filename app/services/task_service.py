@@ -4,11 +4,7 @@ from typing import Any, Dict, Generator, List, Optional
 from sqlalchemy.orm import Session
 
 from app.database import SessionLocal
-from app.exceptions import (
-    AlreadyExistsError,
-    NotFoundError,
-    ValidationError,
-)
+from app.exceptions import AlreadyExistsError, NotFoundError, ValidationError
 from app.models import Task, User
 from app.services.base_service import BaseService
 

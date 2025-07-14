@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=64.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -24,16 +24,20 @@ classifiers = [
 keywords = ["flask", "web", "api", "sqlalchemy", "alembic"]
 requires-python = ">=3.10"
 
-dependencies = [
-    "flask>=2.3.0",
-    "sqlalchemy>=2.0.0",
-    "alembic>=1.12.0",
-    "psycopg2-binary>=2.9.7",
-    "pydantic-settings>=2.0.0",
-    "python-dotenv>=1.0.0",
-    "bcrypt>=4.0.0",
-    "pyjwt>=2.8.0"
-]
+[project.scripts]
+project-run = "run:main"
+project-init-db = "app.database:init_db"
+
+dependencies = """
+    flask>=2.3.0
+    sqlalchemy>=2.0.0
+    alembic>=1.12.0
+    psycopg2-binary>=2.9.7
+    pydantic-settings>=2.0.0
+    python-dotenv>=1.0.0
+    bcrypt>=4.0.0
+    pyjwt>=2.8.0
+"""
 
 [project.optional-dependencies]
 dev = [
@@ -51,14 +55,10 @@ test = [
     "factory-boy>=3.3.0",
 ]
 
-[project.scripts]
-project-run = "run:main"
-project-init-db = "app.database:init_db"
-
 [project.urls]
-Homepage = "https://github.com/Faustze/name_of_project"
-Documentation = "https://github.com/Faustze/name_of_project/docs"
-Repository = "https://github.com/Faustze/name_of_project"
+Homepage = "https://github.com/Faustze/proj.git"
+Documentation = "https://github.com/Faustze/proj.git/docs"
+Repository = "https://github.com/Faustze/proj.git"
 
 [tool.setuptools]
 packages = ["app"]
@@ -144,7 +144,10 @@ skip_covered = false
 [tool.coverage.html]
 directory = "htmlcov"
 
-[tool.uv.workspace]
-members = [
-    "venv",
-]
+[tool.flake8]
+exclude = [
+    "venv/",
+    ".venv/",
+    "build/",
+    "dist/",
+    "migrations/"]

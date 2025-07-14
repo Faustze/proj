@@ -1,6 +1,5 @@
-POST http://127.0.0.1:5000/tasks
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTE4MDM0MDEsImlhdCI6MTc1MTgwMTYwMX0.Ur-nj-2jEpEoOljxRd2uAnJ6A68gXLFGrci7QzZ9YlQ
-Content-Type: application/json
+POST http://192.168.128.61:5000/tasks
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImJvYiIsInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE3NTI1MDAxODksImlhdCI6MTc1MjQ5ODM4OX0.gBe5MT_eWMsrsJ3V2Bd4cI7fGOVb8_727JYgYFkrFRY
 {
     "title": "Some title",
     "description": "Some description"
